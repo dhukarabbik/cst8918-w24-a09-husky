@@ -13,7 +13,7 @@ provider "azurerm" {
   features {}
 }
 
-resourcsssse "azurerm_resource_group" "example" {
+resource "azurerm_resource_group" "example" {
   name     = "example-rg"
   location = "West Europe"
 }
